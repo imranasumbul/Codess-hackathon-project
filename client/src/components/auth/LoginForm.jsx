@@ -80,6 +80,7 @@ function LoginForm() {
             }
         }
     };
+
       //  const response = await axios.post(`${backendUrl}/api/auth/login`, loginData, {
       //   headers: {
       //     'Content-Type': 'application/json',
@@ -118,6 +119,7 @@ function LoginForm() {
     //   console.error('Error login:', error);
     // }
   //};
+
 
   return (
     <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md -z-0">
